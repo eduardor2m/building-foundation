@@ -7,7 +7,7 @@ type User struct {
 
 type Node struct {
 	user User
-	next  *Node
+	next *Node
 }
 
 type LinkedList struct {
@@ -34,7 +34,7 @@ func (l *LinkedList) Display() {
 	}
 }
 
-func LinkedListExemple()  {
+func LinkedListExemple() {
 	list := LinkedList{}
 
 	list.Insert(User{"Eduardo", 25})
